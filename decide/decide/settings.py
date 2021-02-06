@@ -154,7 +154,7 @@ STATIC_URL = '/static/'
 KEYBITS = 256
 
 try:
-    from local_settings import *
+    from decide.local_settings import *
 except ImportError:
     print("local_settings.py not found")
 
